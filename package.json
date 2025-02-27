@@ -1,0 +1,39 @@
+{
+  "name": "teste-pratico-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "start:db": "json-server --watch db.json --port 8080",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "axios": "^1.8.1",
+    "json-server": "^1.0.0-beta.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-query": "^3.39.3",
+    "styled-components": "^6.1.15"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.3",
+    "prettier": "^3.5.2",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.25.0",
+    "vite": "^6.2.0"
+  }
+}
