@@ -12,8 +12,8 @@ export const theme: DefaultTheme = {
     white: `#ffffff`,
   },
   fontFamily: {
-    primary: 'Roboto, sans-serif',
-    secondary: 'Helvetica, sans-serif',
+    primary: 'Helvetica, sans-serif',
+    secondary: 'Roboto, sans-serif',
   },
   fontSize: {
     small: '16px',

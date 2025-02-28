@@ -8,8 +8,9 @@ export const GlobalStyles = createGlobalStyle`
     font-size: 100%;
     vertical-align: baseline;
     box-sizing: border-box; 
-    font-family: 'Montserrat', sans-serif;
-    color: ${({ theme }) => theme.colors.text};
+    font-family: '${({ theme }) => theme.fontFamily.primary}';
+    color: ${({ theme }) => theme.colors.black_neutral};
+    background-color: ${({ theme }) => theme.colors.gray};
     -webkit-user-drag: none;
   }
 
