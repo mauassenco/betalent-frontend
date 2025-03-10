@@ -2,11 +2,11 @@ import baseApi from '../configApi';
 
 export interface IGetEmployees {
   id: number;
+  image: string;
   name: string;
   job: string;
-  admissionDate: Date;
+  admission_date: string;
   phone: string;
-  image: string;
 }
 
 export const getEmployees = (props?: IGetEmployees) =>
@@ -15,5 +15,14 @@ export const getEmployees = (props?: IGetEmployees) =>
     method: 'GET',
     params: {
       ...props,
+    },
+  });
+
+export const searchEmployees = (query: string) =>
+  baseApi({
+    url: `employees`,
+    method: 'GET',
+    params: {
+      q: query,
     },
   });

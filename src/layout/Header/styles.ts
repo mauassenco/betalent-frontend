@@ -7,8 +7,9 @@ export const HeaderContainer = styled.header`
     justify-content: space-between;
     background-color: ${theme.colors.white};
     height: 3.75rem;
-    box-shadow: ${theme.boxShadow.medium};
     padding: 0.625rem;
+    box-shadow: ${theme.boxShadow.medium};
+    position: relative;
 
     @media (min-width: ${theme.breakpoints.desktop}) {
       padding: 0.75rem ${theme.spacing.regular_10};

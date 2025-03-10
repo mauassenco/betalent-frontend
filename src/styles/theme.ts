@@ -5,10 +5,10 @@ export const theme: DefaultTheme = {
     blue: '#0500FF',
     blue_10: '#EDEFFB',
     black_neutral: '#1C1C1C',
-    gray: '##F0F0F0',
+    gray: '#F0F0F0',
     gray_5: '#F5F5F5',
-    gray_10: '##DFDFDF',
-    gray_20: '##9E9E9E',
+    gray_10: '#DFDFDF',
+    gray_20: '#9E9E9E',
     white: `#ffffff`,
   },
   fontFamily: {
